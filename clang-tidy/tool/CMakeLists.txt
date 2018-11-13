@@ -27,6 +27,7 @@ target_link_libraries(clang-tidy
   clangTidyGoogleModule
   clangTidyHICPPModule
   clangTidyLLVMModule
+  clangTidyMicrosoftModule
   clangTidyMiscModule
   clangTidyModernizeModule
   clangTidyObjCModule

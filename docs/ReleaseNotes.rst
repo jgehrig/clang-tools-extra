@@ -67,6 +67,12 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`microsoft-uniform-initialization
+  <clang-tidy/checks/microsoft-uniform-initialization>` check.
+
+  Checks for usage of modern uniform initialization of variables
+  whenever possible.
+
 - New :doc:`abseil-duration-division
   <clang-tidy/checks/abseil-duration-division>` check.
 

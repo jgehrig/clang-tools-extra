@@ -10,6 +10,7 @@
 #include "../ClangTidy.h"
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
+#include "UniformInitializationCheck.h"
 
 namespace clang {
 namespace tidy {
@@ -18,6 +19,8 @@ namespace microsoft {
 class MicrosoftModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+    CheckFactories.registerCheck<UniformInitializationCheck>(
+        "microsoft-uniform-initialization");
   }
 };
 

@@ -283,7 +283,7 @@ def update_checks_list(clang_tidy_path):
 
   def format_link(doc_file):
     check_name = doc_file.replace('.rst', '')
-    with open(os.path.join(docs_dir, doc_file), 'r') as doc:
+    with open(os.path.join(docs_dir, doc_file), 'r', encoding='utf-8') as doc:
       content = doc.read()
       match = re.search('.*:orphan:.*', content)
       if match:

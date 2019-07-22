@@ -67,7 +67,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
-The improvements are...
+- New :doc:`microsoft-uniform-initialization
+  <clang-tidy/checks/microsoft-uniform-initialization>` check.
+
+  Checks for usage of modern uniform initialization of variables
+  whenever possible.
 
 Improvements to include-fixer
 -----------------------------

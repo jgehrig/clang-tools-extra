@@ -188,6 +188,7 @@ Clang-Tidy Checks
    llvm-namespace-comment
    llvm-prefer-isa-or-dyn-cast-in-conditionals
    llvm-twine-local
+   microsoft-uniform-initialization
    misc-definitions-in-headers
    misc-misplaced-const
    misc-new-delete-overloads

@@ -2,6 +2,7 @@ set(LLVM_LINK_COMPONENTS support)
 
 add_clang_library(clangTidyMicrosoftModule
   MicrosoftTidyModule.cpp
+  UniformInitializationCheck.cpp
 
   LINK_LIBS
   clangAnalysis
